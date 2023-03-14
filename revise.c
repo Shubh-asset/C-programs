@@ -30,20 +30,23 @@ int main()
     // printf("\ntotal salary: %0.2f", grosssal);
 
 //3
-    int m1, m2, m3, m4, m5;
-    printf("write your marks in all 5 subjects out of 100: ");
-    scanf("%d %d %d %d %d", &m1, &m2, &m3, &m4, &m5);
+    // int m1, m2, m3, m4, m5;
+    // printf("write your marks in all 5 subjects out of 100: ");
+    // scanf("%d %d %d %d %d", &m1, &m2, &m3, &m4, &m5);
 
-    float aggr;
-    aggr=m1+m2+m3+m4+m5;
-    printf("\naggregate marks are: %0.2f", aggr);
+    // float aggr;
+    // aggr=m1+m2+m3+m4+m5;
+    // printf("\naggregate marks are: %0.2f", aggr);
 
-    float perc;
-    perc=(aggr/500)*100;
-    printf("\npercentage is: %0.2f", perc);
+    // float perc;
+    // perc=(aggr/500)*100;
+    // printf("\npercentage is: %0.2f", perc);
 
 //4
-        
+//power program
+    float a;
+    a=pow(5.0, 2.0);
+    printf("%0.2f", a);
 
     return 0;
 }
