@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math.h> //in 5th
 
 int main()
 {
@@ -42,11 +43,21 @@ int main()
     // perc=(aggr/500)*100;
     // printf("\npercentage is: %0.2f", perc);
 
-//4
-//power program
-    float a;
-    a=pow(5.0, 2.0);
-    printf("%0.2f", a);
+//4 power program
+    // float a;
+    // a=pow(5.0, 2.0);
+    // printf("%0.2f", a);
+
+//5 area of triangle
+    
+    float area, a, b, c, s;
+
+    printf("Enter the values of sides of triangle: \n");
+    scanf("%f %f %f", &a,&b, &c);
+
+    s= (a+b+c)/2;
+    area = sqrt(s*(s-a)*(s-b)*(s-c));
+    printf("area of triangle is: %0.2f\n", area);
 
     return 0;
 }
