@@ -60,25 +60,153 @@ int main()
     // printf("area of triangle is: %0.2f\n", area);
 
 //6 reversing with basic knowledge
-    int n, d1, d2, d3, d4, d5,m;
-    long int rev;
+    // int n, d1, d2, d3, d4, d5,m;
+    // long int rev;
 
-    printf("Enter your five digit number\n");
-    scanf("%d", &n);
+    // printf("Enter your five digit number\n");
+    // scanf("%d", &n);
 
-    d5 = n%10;
-    n = n/10;
-    d4 = n%10;
-    n = n/10;
-    d3 = n%10;
-    n = n/10;
-    d2 = n%10;
-    n = n/10;
-    d1 = n%10;
+    // d5 = n%10;
+    // n = n/10;
+    // d4 = n%10;
+    // n = n/10;
+    // d3 = n%10;
+    // n = n/10;
+    // d2 = n%10;
+    // n = n/10;
+    // d1 = n%10;
     
 
-    rev = d5*10000 + d4*1000 + d3*100 + d2*10 + d1;
-    printf("\nthe reverse number is: %ld", rev);
+    // rev = d5*10000 + d4*1000 + d3*100 + d2*10 + d1;
+    // printf("\nthe reverse number is: %ld", rev);
+
+
+//7 if-else
+
+    // int qty, dis;
+    // float rate, tote;
+
+    // printf("Enter your purchases item(s) and their price:\n");
+    // scanf("%d %f", &qty, &rate);
+
+    // if(qty > 1000)
+    //     dis=10;
     
+    // else
+    //     dis=0;
+            
+    // tote= ((qty*rate)-(qty*rate*dis/100));
+    // printf("your total expense is: %0.2f\n", tote);
+
+    
+// 8 discount if else
+
+    // int basicsal;
+    // float hra, da, gs;
+
+    // printf("Enter your salary: ");
+    // scanf("%d", &basicsal);
+
+    // if(basicsal<1500)
+    // {hra=basicsal*10/100;
+    // da=basicsal*90/100;}
+
+    // else if(basicsal = 2000)
+    // {hra=500;
+    // da=basicsal*98/100;
+    // }
+
+    // gs=hra + da + basicsal;
+
+    // printf("the gross salary of yours is: %0.2f", gs);
+
+        // int i;
+        // scanf("%d", &i);
+
+        // if(i==10)
+        // printf("it is 10");
+        // if(i==5)
+        // printf("it is 5");
+
+//9 leap year
+
+    // int yr;
+    // printf("enter the year: ");
+    // scanf("%d", &yr);
+
+    // if(yr%100==0)
+    // {
+    //     if(yr%400==0)
+    //     printf("leap year");
+    //     else
+    //     printf("not a leap year");
+    // }
+    // else
+    // {
+    //     if(yr%4==0)
+    //     printf("leap year");
+    //     else
+    //     printf("not a leap year");
+    // }
+    
+// 10 marital status
+
+    // char ms,  sex;
+    // int age;
+    // printf("Enter your marital status(M or U), sex(M or F), age: ");
+    // scanf("%c %c %d", &ms, &sex, &age);
+
+    // if((ms=='U')||(ms=='U'&&sex=='M'&&age>30)||(ms=='U'&&sex=='F'&&age>25) )
+    // {
+    //     printf("your are eligible for the job.");
+    // }
+    // else{
+    //     printf("you are not eligible");
+    // }
+
+
+// 11 salary
+
+    // int yos, qual;
+    // char gender;
+
+    // printf("Enter your gender(M or F), year of service, qualification(G=0, PG=1): ");
+    // scanf("%c %d %d", &gender, &yos, &qual);
+
+    // if(gender=='M'&& yos>=10&&qual==1)
+    // {
+    //     printf("your salary is '15000'.");
+    // }
+    // else if((gender=='M'&&yos>=10&&qual==0)||(gender=='M'&&yos<10&&qual==1))
+    // {
+    //     printf("your salary is '10000'.");
+    // }
+    // else if(gender=='M'&& yos<10&&qual==0)
+    // {
+    //     printf("your salary is '7000'.");
+    // }
+    // else if(gender=='F'&& yos>=10&&qual==1)
+    // {
+    //     printf("your salary is '12000'.");
+    // }
+    // else if(gender=='F'&& yos>=10&&qual==0)
+    // {
+    //     printf("your salary is '9000'.");
+    // }
+    // else if(gender=='F'&& yos<10&&qual==1)
+    // {
+    //     printf("your salary is: '10000'.");
+    // }
+    // else if(gender=='F'&& yos<10&&qual==0)
+    // {
+    //     printf("your salary is '6000'.");
+    // }
+    // else 
+    // {
+    //     printf("no data.");
+    // }
+
+
+
      return 0;
 }
