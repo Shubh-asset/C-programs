@@ -207,6 +207,124 @@ int main()
     // }
 
 
+//12 triangle program
+
+    // float s1, s2, s3, sum, largs;
+    // printf("Enter the sides of triangle: ");
+    // scanf("%f %f %f", &s1, &s2, &s3);
+
+    // if(s1>s2)
+    // {
+    //     if(s1>s3)
+    //     {
+    //         sum=s2+s3;
+    //         largs=s1;
+    //     }
+    //     else
+    //     {
+    //         sum=s1+s2;
+    //         largs=s3;
+    //     }
+    // }
+    // else
+    // {
+    //     if(s2>s3)
+    //     {
+    //         if (s2>s1)
+    //         {
+    //             sum=s1+s3;
+    //             largs=s2;
+    //         }
+    //         else
+    //         {
+    //             sum=s1+s2;
+    //             largs=s3;
+    //         }
+            
+    //     }
+    // }
+    // if(sum>largs)
+    // {
+    //     printf("it is a valid triangle");
+    // }
+    // else
+    // printf("not a valid triangle.");
+
+
+//13 loop
+
+    // int p, n, count;
+    // float r, si;
+
+    // count=1;
+
+    // while(count<=3)
+    // {
+    //     printf("\nenter the values of principle, no. of years, rate of interest: ");
+    //     scanf("%d %d %f", &p,&n,&r);
+    //     si=p*n*r/100;
+    //     printf("\nsimple interest = %f\n", si);
+    //     count=count+1;
+    // }
+
+
+//14 
+
+    // int i=1;
+    // while(i<=5)
+    // {
+    //     printf("make the computer literate\n");
+    //     i=i+1;
+    // }
+
+//no output
+    // int i=1;
+    // while(i<=10)
+    // {    
+    //     printf("it is %d\n", i);
+    //     // i+=1;
+    //     i++;
+    // }
+
+
+//15 problem
+
+    // float otpay;
+    // int hour, i=1;
+
+    // while(i<=10)
+    // {
+    //     printf("Enter your time of work in hour: ");
+    //     scanf("%d", &hour);
+    //     if(hour>40)
+    //     {
+    //         otpay=(hour-40)*12;
+    //         printf("hour is: %d, overtime pay is: %0.2f\n", hour, otpay);
+    //     }
+    //     else
+    //     {
+    //         otpay =0;
+    //         printf("no overtime.\n");
+    //     }
+    //     i++;
+    // }
+
+//16 factorial
+    
+    int fact, i, num;
+    
+    printf("enter your number: ");
+    scanf("%d", &num);
+    
+    fact=i=1;   
+
+    while(i<=num)
+    {
+        fact=fact*i;
+        i++;
+    }
+    printf("your factorial of %d, is %d",num, fact);
+
 
      return 0;
 }
